@@ -1,0 +1,12 @@
+﻿.flexMid {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    background-color: steelblue;
+}
+
+.centerDiv {
+    
+}
+
