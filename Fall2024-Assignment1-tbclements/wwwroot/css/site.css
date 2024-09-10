@@ -21,7 +21,7 @@ body {
   margin-bottom: 60px;
   position: relative;
   top: 0px;
-  background-color: steelblue;
+  background-color: rgb(88, 165, 227);
   overflow-y: hidden;
 }
 
@@ -60,7 +60,7 @@ body {
 }
 
 .navButton{
-  background-color: steelblue;
+  background-color: rgb(88, 165, 227);
   border-radius: 2vh;
   align-self: center;
   font-size: smaller;
@@ -78,11 +78,21 @@ body {
   border-radius: 100vh;
 }
 
-#Trailer{
-  padding-top: 10vh;
-  width: 40%;
-  height: 40%;
+@media all and (orientation: portrait) {
+  #Trailer{
+    padding-top: 10vh;
+    width: 80%;
+    height: 60%
+  }
 }
+@media all and (orientation: landscape) {
+  #Trailer{
+    padding-top: 10vh;
+    width: 60%;
+    height: 80%
+  }
+}
+
 
 #Summary{
   padding-left: 5vw;

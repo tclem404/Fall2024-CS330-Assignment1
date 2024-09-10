@@ -53,4 +53,15 @@ function loadSummary(){
     }
 }
 
-loadSummary();
+source = 2
+switch(source){
+    case 1:
+        loadLandingPage();
+        break;
+    case 2:
+        loadTrailer();
+        break;
+    case 3:
+        loadSummary();
+        break;
+}
