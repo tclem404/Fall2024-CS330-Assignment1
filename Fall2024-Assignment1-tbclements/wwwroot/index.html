@@ -3,14 +3,45 @@
 <head>
     <meta charset="utf-8" />
     <title>Baby's First Website</title>
-    <link rel="stylesheet" type="text/css" href="StyleSheet.css">
 </head>
 
 <body>
-    <div class="flexMid">
-        <div class="center">
+    <link rel="stylesheet" type="text/css" href="./css/site.css">
 
+
+    <div class="flexMid">
+        <div>
+            <div id="Banner">
+                <button class="navButton" onclick="loadLandingPage()">
+                    <p>1</p>
+                </button>
+                <button class="navButton" onclick="loadTrailer()">
+                    <p>2</p>
+                </button>
+                <button class="navButton" onclick="loadSummary()">
+                    <p>3</p>
+                </button>
+                
+            </div>
+            <div class="centerDiv" style="flex-grow : 1;">
+                <h1 id="title" class="firstPageItem">
+                    Adventure Time
+                </h1>
+                <img id="CoverArt" class="firstPageItem" src="https://media.wired.com/photos/5932661626780e6c04d2b642/191:100/w_1280,c_limit/AdventureTime.jpg">
+                <h5 id="Rating" class="firstPageItem">IMDB gives Adventure Time a 8.6/10 starts</h5>
+                <iframe id="Trailer" class="secondPageItem" src="https://www.youtube.com/embed/DRaLQ3kKz_k" title="Adventure Time - Season 1-5 - Official Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <a id="linkToIMDB" class="thirdPageItem" href="https://www.imdb.com/title/tt1305826/">Adventure Time's IMDB Page</a>
+                <p id="Summary" class="thirdPageItem">IMDB Summary: A 12-year-old boy and his best friend, a wise 28-year-old dog with magical powers, go on a series of surreal adventures in a remote future.</p>
+                <ul id="Actors" class="thirdPageItem">
+                    Featuring:
+                    <li>Jeremy Shada as Finn the Human</li>
+                    <li>John DiMaggio as Jake the Dog</li>
+                    <li>Tom Kenny as the Ice King</li>
+                </ul>
+            </div>
         </div>
     </div>
+
+    <script type="text/javascript" src="./js/site.js"></script>
 </body>
 </html>
