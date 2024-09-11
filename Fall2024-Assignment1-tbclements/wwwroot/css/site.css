@@ -1,5 +1,6 @@
 html {
   font-size: 14px;
+  color:white;
 }
 
 @media (min-width: 768px) {
@@ -41,7 +42,7 @@ body {
   flex:auto;
   flex-direction: column;
   align-items: center;
-  background-color: white;
+  background-color:  rgb(15, 79, 132);
   overflow-y: auto;
   gap: 10px;
 }
@@ -52,7 +53,7 @@ body {
   left: 0;
   width: 100%;
   height: 20vh;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(15, 79, 132);
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -71,7 +72,6 @@ body {
 
 #Title{
   border: 5%;
-  color: black;
   justify-self: center;
 }
 
@@ -94,6 +94,10 @@ body {
     width: 60%;
     height: 80%
   }
+}
+
+a{
+  color: #4ea2fc;
 }
 
 a:hover{
