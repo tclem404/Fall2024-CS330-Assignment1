@@ -53,7 +53,7 @@ function loadSummary(){
     }
 }
 
-source = 2
+source = 1
 switch(source){
     case 1:
         loadLandingPage();
