@@ -18,9 +18,10 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
-  position: relative;
-  top: 0px;
+  margin: 0;
+  align-content: stretch;
+  justify-content: stretch;
+  display: flex;
   background-color: rgb(88, 165, 227);
   overflow-y: hidden;
 }
@@ -30,7 +31,7 @@ body {
   flex-direction: row;
   flex:auto;
   justify-content: center;
-  height: 100vh;
+  align-content: start;
 }
 
 .centerDiv {
@@ -55,13 +56,15 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
-  gap: 10px;
+  justify-content: space-around;
 }
 
 .navButton{
+  border-width: 0.5;
+  border-color: grey;
   background-color: rgb(88, 165, 227);
-  border-radius: 2vh;
+  width: 25%;
+  border-radius: 100vh;
   align-self: center;
   font-size: smaller;
 }
@@ -93,6 +96,9 @@ body {
   }
 }
 
+a:hover{
+  color: orange;
+}
 
 #Summary{
   padding-left: 5vw;
