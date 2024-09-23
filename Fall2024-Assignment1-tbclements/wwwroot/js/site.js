@@ -1,7 +1,5 @@
-﻿// Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
-// for details on configuring this project to bundle and minify static web assets.
-
-// Write your JavaScript code.
+﻿// Ignore this, was for nav buttons but changed bc didnt want to center
+// everything vertically so put all on one page :)
 function loadLandingPage(){
     let firstElems = document.getElementsByClassName("firstPageItem")
 
@@ -18,6 +16,7 @@ function loadLandingPage(){
         thirdElems[i].setAttribute("style", "display: none");
     }
 }
+
 
 function loadTrailer(){
     let firstElems = document.getElementsByClassName("firstPageItem")
@@ -53,7 +52,7 @@ function loadSummary(){
     }
 }
 
-source = 1
+source = 5
 switch(source){
     case 1:
         loadLandingPage();
